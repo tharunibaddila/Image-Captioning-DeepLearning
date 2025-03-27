@@ -2,6 +2,14 @@
 **Overview**
 This project focuses on generating descriptive captions for images using deep learning techniques. It leverages an encoder-decoder architecture with CNNs for feature extraction and LSTMs for sequence generation. The model is trained on large datasets to generate meaningful captions for various images.
 
+**Architechture**
+<img width="442" alt="image" src="https://github.com/user-attachments/assets/6b921d6c-5834-434c-8ddc-28d9e08cab1c" />
+
+**Use Case Diagram**
+<img width="222" alt="image" src="https://github.com/user-attachments/assets/42807a31-4294-4e22-ac2b-5c05e8a4b099" />
+
+
+
 **Motivation**
 Image captioning bridges the gap between computer vision and natural language processing (NLP), making it useful in various applications such as:
 
