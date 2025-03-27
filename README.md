@@ -31,21 +31,28 @@ Surveillance and monitoring, where images need textual descriptions.
 **Technology Stack**
 
 Programming Language: Python
+
 Frameworks/Libraries: TensorFlow, Keras, OpenCV, NumPy, Pandas, NLTK
+
 Deep Learning Models: CNN (VGG16, ResNet50) + LSTM
+
 Cloud Integration: AWS S3/Azure Storage (if applicable)
 
 
 **How It Works**
 
 The CNN (e.g., VGG16, ResNet50) extracts image features.
+
 The features are passed to an LSTM decoder.
+
 The decoder generates a caption word by word.
+
 The final caption is returned as output.
 
 **Dataset Used**
 
 MS COCO (Common Objects in Context)
+
 Flickr8k / Flickr30k
 
 **Challenges & Limitations**
