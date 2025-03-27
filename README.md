@@ -27,26 +27,7 @@ Deep Learning Models: CNN (VGG16, ResNet50) + LSTM
 
 Cloud Integration: AWS S3/Azure Storage (if applicable)
 
-**Installation & Setup**
-1. Clone the repository
-bash
-Copy
-Edit
-git clone https://github.com/yourusername/image-captioning.git
-cd image-captioning
-2. Install dependencies
-bash
-Copy
-Edit
-pip install -r requirements.txt
-3. Download pre-trained models
-Ensure that you have the necessary CNN models downloaded for feature extraction.
 
-4. Run the project
-bash
-Copy
-Edit
-python main.py --image path/to/image.jpg
 How It Works
 The CNN (e.g., VGG16, ResNet50) extracts image features.
 
@@ -78,5 +59,29 @@ Limited vocabulary affects caption diversity.
                                                           Model Design: (5.4.1)
 
 ![image](https://github.com/user-attachments/assets/8d0bd312-e327-4747-bcfa-e1961df2f859)
+    Model Design: (5.4.2)![image](https://github.com/user-attachments/assets/ebe32710-6314-49b3-87d3-faca83378ab5)
+
+<img width="451" alt="image" src="https://github.com/user-attachments/assets/9d3fa855-4f59-42b5-b7ad-d600a432d0ec" />
+Model Design: (5.4.3)![image](https://github.com/user-attachments/assets/86c78e01-bedb-4859-84b7-755671334e56)
+
+<img width="451" alt="image" src="https://github.com/user-attachments/assets/7c458010-5f7f-4a9a-9c29-b33863b40eeb" />
+OUTPUTS:
+
+<img width="451" alt="image" src="https://github.com/user-attachments/assets/3d60f1b6-9288-4424-883b-6523ffd413be" />
+
+<img width="406" alt="image" src="https://github.com/user-attachments/assets/f9fcd28d-5286-4e1f-a601-58aeb543bac6" />
+<img width="446" alt="image" src="https://github.com/user-attachments/assets/2159d6c9-6f43-4624-a8a3-627a56f2fc8c" />
+<img width="435" alt="image" src="https://github.com/user-attachments/assets/8710291c-90e6-449f-ae9d-dfcc15d0d7f9" />
+![Uploading image.png…]()
+
+
+
+
+
+**CONCLUSION:   **                 
+We have proposed and tested a general building designs for creating real-time CNNs. Our proposed architectures have been systematically built in order to reduce the number of parameters as much as possible. We have shown that our proposed models can be stacked for multiclass classification while maintaining real-time inferences. In conclusion, we’ve successfully constructed a working CNN model to recognize the Facial Expressions, Age and Gender of Human Beings.              
+![image](https://github.com/user-attachments/assets/49f937e9-f2d0-43c5-9f46-8e0893600165)
+
+
 
 
